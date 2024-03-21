@@ -67,16 +67,16 @@ You have to secure this computer:
 You have to be sure that if a company user uses this computer their policies are not applied to this computer
 
 
-## Network Drive
+## 1.4 Network Drive
 
 Créer un partage de fichier NTFS sur le serveur Active Directory
 Faites en sorte de monter ce partage réseau sur les PC Windows, sur la lettre W.
 Utilisez le système intégré aux GPO, puis faites la même chose avec un script (CMD ou Powershell)
 
-## Windows Update
+## 1.5 Windows Update
 
 Configurer le service de mise à jour afin que les PC Windows se mettent à jour le plusrapidement possible, en dehors des heures de travail
 
-## Déploiement Applicatif
+## 1.6 Déploiement Applicatif
 
 Déployer Notepad++ sur les postes de travail
