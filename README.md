@@ -1,3 +1,9 @@
+# Liens utiles 
+
+https://gpsearch.azurewebsites.net/
+https://learn.microsoft.com/en-us/troubleshoot/windows-server/group-policy/applying-group-policy-troubleshooting-guidance
+https://www.antrimohamed.fr/wp-content/uploads/2014/04/Djoin/Offline-domain-Join.pdf
+
 # Group Policy 
 
 ## 1.0 SECURITY GPO
@@ -56,5 +62,19 @@ You have to secure this computer:
 - No access to task bar configuration
 - No access to desktop icon
 - When a user logon a script run internet explorer
-You have to be sure that if a company user uses this computer their policies are not applied to
-this computer
+You have to be sure that if a company user uses this computer their policies are not applied to this computer
+
+
+## Network Drive
+
+Créer un partage de fichier NTFS sur le serveur Active Directory
+Faites en sorte de monter ce partage réseau sur les PC Windows, sur la lettre W.
+Utilisez le système intégré aux GPO, puis faites la même chose avec un script (CMD ou Powershell)
+
+## Windows Update
+
+Configurer le service de mise à jour afin que les PC Windows se mettent à jour le plusrapidement possible, en dehors des heures de travail
+
+## Déploiement Applicatif
+
+Déployer Notepad++ sur les postes de travail
