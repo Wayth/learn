@@ -1,7 +1,9 @@
 # Liens utiles 
 
 https://gpsearch.azurewebsites.net/
+
 https://learn.microsoft.com/en-us/troubleshoot/windows-server/group-policy/applying-group-policy-troubleshooting-guidance
+
 https://www.antrimohamed.fr/wp-content/uploads/2014/04/Djoin/Offline-domain-Join.pdf
 
 # Group Policy 
